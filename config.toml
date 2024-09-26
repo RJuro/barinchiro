@@ -10,17 +10,17 @@ theme = "terrassa"
 themesDir = "themes" # Not necessary on production sites
 
 [params]
-    description = "Barin Chiropractic - Your Chiropractor in Allston-Brighton"
+    description = "Barin Chiropractic - Your Chiropractor in Needham"
     favicon = "images/favicon.png"
     logo = "images/logo.png"
 
 [params.homepage_meta_tags]
-    meta_description = "Barin Chiropractic - Your Chiropractor in Allston-Brighton"
+    meta_description = "Barin Chiropractic - Your Chiropractor in Needham"
     meta_og_title = "Barin Chiropractic"
     meta_og_type = "website"
     meta_og_url = "https://barinchiro.com"
     meta_og_image = "https://barinchiro.com/images/logo.png"
-    meta_og_description = "Barin Chiropractic - Your Chiropractor in Allston-Brighton"
+    meta_og_description = "Barin Chiropractic - Your Chiropractor in Needham"
     meta_twitter_card = ""
     meta_twitter_site = ""
     meta_twitter_creator = ""
@@ -29,7 +29,7 @@ themesDir = "themes" # Not necessary on production sites
     textColor = "#ffffff" # Empty for default color
 
 [params.cta] # Call To Action 
-    show = true
+    show = false
     cta = "Contact"
     link = "contact" # Relative URL
 

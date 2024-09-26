@@ -1,0 +1,14 @@
+[params.form] # Contact form
+    netlify = false
+    action = "https://formsubmit.io/send/e56205c6-8bf2-4399-b550-f2af7f6076ac"
+    method = "POST"
+    inputNameName = "name"
+    inputNameLabel = "Name"
+    inputNamePlaceholder = "Your name"
+    inputEmailName = "email"
+    inputEmailLabel = "Email"
+    inputEmailPlaceholder = "Your email"
+    inputMsgName = "message"
+    inputMsgLabel = "Write something"
+    inputMsgLength = 750
+    inputSubmitValue = "Send"
