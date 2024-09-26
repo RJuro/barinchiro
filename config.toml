@@ -29,9 +29,9 @@ themesDir = "themes" # Not necessary on production sites
     textColor = "#ffffff" # Empty for default color
 
 [params.cta] # Call To Action 
-    show = false
-    cta = "Contact"
-    link = "contact" # Relative URL
+    show = true
+    cta = "Call now!"
+    link = "tel:+16177825100" # Phone number link for direct calling
 
 [params.separator] # Separators between sections on the home page
     show = false
@@ -65,7 +65,7 @@ themesDir = "themes" # Not necessary on production sites
     email = ""
     phone = "617-782-5100"
     skype = ""
-    address = "556 Cambridge St.Allston MA, 02134"
+    address = "35 Highland Circle Suite 303, Needham, MA, 02494"
 
 [params.social]
     twitter = ""
