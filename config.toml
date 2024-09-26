@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://barinchiro.com/"
 title = "Barin Chiropractic"
 author = ""
 googleAnalytics = ""
@@ -11,8 +11,19 @@ themesDir = "themes" # Not necessary on production sites
 
 [params]
     description = "Barin Chiropractic - Your Chiropractor in Allston-Brighton"
-    favicon = "favicon.ico"
+    favicon = "images/favicon.png"
     logo = "images/logo.png"
+
+[params.homepage_meta_tags]
+    meta_description = "Barin Chiropractic - Your Chiropractor in Allston-Brighton"
+    meta_og_title = "Barin Chiropractic"
+    meta_og_type = "website"
+    meta_og_url = "https://barinchiro.com"
+    meta_og_image = "https://barinchiro.com/images/logo.png"
+    meta_og_description = "Barin Chiropractic - Your Chiropractor in Allston-Brighton"
+    meta_twitter_card = ""
+    meta_twitter_site = ""
+    meta_twitter_creator = ""
 
 [params.hero]
     textColor = "#ffffff" # Empty for default color
@@ -31,7 +42,7 @@ themesDir = "themes" # Not necessary on production sites
 
 [params.form] # Contact form
     netlify = false
-    action = "https://formsubmit.io/send/roman.j@me.com"
+    action = "https://formsubmit.io/send/e56205c6-8bf2-4399-b550-f2af7f6076ac"
     method = "POST"
     inputNameName = "name"
     inputNameLabel = "Name"
@@ -76,21 +87,23 @@ themesDir = "themes" # Not necessary on production sites
     copy = "" # Empty for default content
 
 [privacy]
+    [privacy.disqus]
+        disable = true
     [privacy.googleAnalytics]
         anonymizeIP = true
         disable = true
         respectDoNotTrack = true
-        useSessionStorage = false
+        useSessionStorage = true
     [privacy.instagram]
-        disable = false
-        simple = false
+        disable = true
+        simple = true
     [privacy.twitter]
-        disable = false
+        disable = true
         enableDNT = true
-        simple = false
+        simple = true
     [privacy.vimeo]
-        disable = false
-        simple = false
+        disable = true
+        simple = true
     [privacy.youtube]
-        disable = false
+        disable = true
         privacyEnhanced = true

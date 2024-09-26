@@ -9,6 +9,7 @@ weight: 1
 
 # Barin Chiropractic
 ## Your Chiropractor in Allston-Brighton
-### <span><i class="fas fa-phone"></i></span> 617-782-5100
+### <span><i class="fas fa-phone"></i></span> <a href="tel:{{ $.Site.Params.contact.phone }}" class="footer__contact__link" alt="Phone">617-782-5100 </a>
 - Accepting most major insurance plans 
 - Flexible hours. weekend and evening appointments available
+
